@@ -15,12 +15,14 @@
 		BF57DAA619EB7098000E1876 /* Index */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Index; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF57DAA919EB7098000E1876 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		BF57DAAC19EB7098000E1876 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		BFDD479B19ED753F005F121D /* Related Datasheets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Related Datasheets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		BF57DA9B19EB7097000E1876 = {
 			isa = PBXGroup;
 			children = (
+				BFDD479B19ED753F005F121D /* Related Datasheets */,
 				BF57DAA819EB7098000E1876 /* Electronic_Target */,
 				BF57DAA719EB7098000E1876 /* Products */,
 			);
@@ -353,6 +355,7 @@
 				BF57DAB219EB7098000E1876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF57DAB319EB7098000E1876 /* Build configuration list for PBXLegacyTarget "Build" */ = {
 			isa = XCConfigurationList;
@@ -361,6 +364,7 @@
 				BF57DAB519EB7098000E1876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF57DAB619EB7098000E1876 /* Build configuration list for PBXLegacyTarget "Upload" */ = {
 			isa = XCConfigurationList;
@@ -369,6 +373,7 @@
 				BF57DAB819EB7098000E1876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF57DAB919EB7098000E1876 /* Build configuration list for PBXLegacyTarget "Clean" */ = {
 			isa = XCConfigurationList;
@@ -377,6 +382,7 @@
 				BF57DABB19EB7098000E1876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF57DABC19EB7098000E1876 /* Build configuration list for PBXNativeTarget "Index" */ = {
 			isa = XCConfigurationList;
@@ -385,6 +391,7 @@
 				BF57DABE19EB7098000E1876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
