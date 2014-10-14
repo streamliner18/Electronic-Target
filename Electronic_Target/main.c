@@ -14,11 +14,13 @@ void initWDT(void) {
 }
 
 void initTimer(void) {
-    
+    TCCR1 |= 1 << CS10; //Full Frequency
+    TIMSK |= (1 << OCIE1A & 1 << OCIE1B & TOIE1);
 }
 
 int main(void) {
 	initIO();
+    initTimer();
     
 	while (1) {
 	}
