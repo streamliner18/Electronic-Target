@@ -2,8 +2,12 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <util/delay.h>
+#include <avr/eeprom.h>
+#include <avr/wdt.h>
+#include <util/twi.h>
 
-byte device_id;
+
+int device_id;
 
 void initIO(void) {
     

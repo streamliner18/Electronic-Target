@@ -40,7 +40,7 @@
 
 #include conf.mk
 # MCU name
-MCU = atmega328
+MCU = attiny85
 
 
 # Processor frequency.
