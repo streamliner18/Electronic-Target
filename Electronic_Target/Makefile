@@ -40,7 +40,8 @@
 
 #include conf.mk
 # MCU name
-MCU = attiny85
+MCU = atmega8a
+BAUD = 57600
 
 
 # Processor frequency.
