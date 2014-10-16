@@ -22,6 +22,7 @@
 		BF57DA9B19EB7097000E1876 = {
 			isa = PBXGroup;
 			children = (
+				BFC0111C19EDEA3400B90599 /* Electronic_Target_CtrlSide */,
 				BFDD479B19ED753F005F121D /* Related Datasheets */,
 				BF57DAA819EB7098000E1876 /* Electronic_Target */,
 				BF57DAA719EB7098000E1876 /* Products */,
@@ -51,6 +52,13 @@
 				BF57DAAC19EB7098000E1876 /* Makefile */,
 			);
 			name = Makefiles;
+			sourceTree = "<group>";
+		};
+		BFC0111C19EDEA3400B90599 /* Electronic_Target_CtrlSide */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Electronic_Target_CtrlSide;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
